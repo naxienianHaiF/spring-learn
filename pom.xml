@@ -10,6 +10,7 @@
     <version>1.0.0-SNAPSHOT</version>
     <modules>
         <module>myself-spring-boot-starter</module>
+        <module>spring-bean</module>
     </modules>
 
     <properties>
