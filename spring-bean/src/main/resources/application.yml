@@ -1,0 +1,9 @@
+server:
+  port: 9080
+
+
+starter:
+  example:
+    enabled: true
+    prefix: starter
+    suffix: example
