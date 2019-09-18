@@ -8,13 +8,15 @@ import org.slf4j.LoggerFactory;
  * @date 2019/9/2 21:39
  */
 public class SpringLifeCycle {
+
+    private int code = 200;
     private static final Logger logger = LoggerFactory.getLogger(SpringLifeCycle.class);
 
     public void start() {
-        logger.info("=====> SpringLifeCycle bean start()...");
+        logger.info("====> SpringLifeCycle bean start()...");
     }
 
     public void destroy() {
-        logger.info("=====> SpringLifeCycle bean destroy()...");
+        logger.info("====> SpringLifeCycle bean destroy()...");
     }
 }
